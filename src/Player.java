@@ -183,15 +183,20 @@ public class Player {
     public void keyPressed(KeyEvent event) {
         switch (event.getKeyCode()) {
             case 38:
+            case 87:
+            case 32:
                 keysDown[UP] = true;
                 break;
             case 40:
+            case 83:
                 keysDown[DOWN] = true;
                 break;
             case 37:
+            case 65:
                 keysDown[LEFT] = true;
                 break;
             case 39:
+            case 68:
                 keysDown[RIGHT] = true;
                 break;
         }
@@ -200,15 +205,20 @@ public class Player {
     public void keyReleased(KeyEvent event) {
         switch (event.getKeyCode()) {
             case 38:
+            case 87:
+            case 32:
                 keysDown[UP] = false;
                 break;
             case 40:
+            case 83:
                 keysDown[DOWN] = false;
                 break;
             case 37:
+            case 65:
                 keysDown[LEFT] = false;
                 break;
             case 39:
+            case 68:
                 keysDown[RIGHT] = false;
                 break;
         }
