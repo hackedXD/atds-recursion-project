@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="core">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/gluegen-rt.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jogl-all.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/core.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <NATIVE>
+          <root url="file://$MODULE_DIR$/lib/linux-aarch64" />
+          <root url="file://$MODULE_DIR$/lib/linux-amd64" />
+          <root url="file://$MODULE_DIR$/lib/linux-arm" />
+          <root url="file://$MODULE_DIR$/lib/macos-aarch64" />
+          <root url="file://$MODULE_DIR$/lib/macos-x86_64" />
+          <root url="file://$MODULE_DIR$/lib/windows-amd64" />
+        </NATIVE>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="sound">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/javamp3-1.0.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jsyn-20171016.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/sound.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
