@@ -1,5 +1,9 @@
 # ATDS Recursion Project 1
 
+### [Video Demo](https://www.loom.com/share/c3f49db1f25a4a05a3352a902039fc3d?sid=172e141a-f94d-4481-be1d-b1babe053005)
+### [Gameplay Demo (i swear its beatable i just havent done it yet)](https://www.loom.com/share/b6626183fb3146929c19d250133f17c1?sid=c40645a9-67f8-4582-bce5-ac59578f4ff0)
+* shows progression system
+
 ### Game Description
 
 **Game Name:** Fractivia\
