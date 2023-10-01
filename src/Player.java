@@ -3,7 +3,6 @@ import processing.core.PImage;
 import processing.core.PVector;
 import processing.event.KeyEvent;
 
-// implements techniques found in this video https://www.youtube.com/watch?v=3sWTzMsmdx8 to make platforming enjoyable
 public class Player {
     public static final float FALL_SPEED = 22.5f;
     public static final int JUMP_SPEED = 540;
@@ -147,27 +146,6 @@ public class Player {
             roomsExplored += Level.move(UP);
             grapplingPoint = null;
         }
-
-
-//        if (position.x <= 0) {
-//            position.x = sketch.width;
-//            level.generateLevel(RIGHT, (int) (position.y / Main.blockSize));
-//            grapplingPoint = null;
-//        } else if (position.x >= sketch.width) {
-//            position.x = 0;
-//            level.generateLevel(LEFT, (int) (position.y / Main.blockSize));
-//            grapplingPoint = null;
-//        }
-//
-//        if (position.y >= sketch.height) {
-//            position.y = 0;
-//            level.generateLevel(UP, (int) (position.x / Main.blockSize));
-//            grapplingPoint = null;
-//        } else if (position.y <= 0) {
-//            position.y = sketch.height;
-//            level.generateLevel(DOWN, (int) (position.x / Main.blockSize));
-//            grapplingPoint = null;
-//        }
 
         if (velocity.x != 0 && Level.currentLevel.wallAt(getCorner(UP, velocity.x > 0 ? RIGHT : LEFT).add(velocity.x, 0)) || Level.currentLevel.wallAt(getCorner(DOWN, velocity.x > 0 ? RIGHT : LEFT).add(velocity.x, -0.01f))) {
             position.x = (int) ((position.x + velocity.x) / Main.blockSize) * Main.blockSize + Main.blockSize / 2f;
