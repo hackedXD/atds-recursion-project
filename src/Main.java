@@ -266,7 +266,7 @@ public class Main extends PApplet {
 
                 fill(255, 0, 0);
                 textAlign(CENTER);
-                text(currentSound.isPlaying() ? "Mute" : "Unmute", width - 52, 28);
+                text(currentSound.isPlaying() ? "mute" : "unmute", width - 52, 28);
 
                 player.draw(deltaTime);
 
