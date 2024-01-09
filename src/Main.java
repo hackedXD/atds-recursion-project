@@ -268,7 +268,7 @@ public class Main extends PApplet {
                 textAlign(CENTER);
                 text(currentSound.isPlaying() ? "Mute" : "Unmute", width - 52, 28);
 
-//                player.draw(deltaTime);
+                player.draw(deltaTime);
 
                 Enemy e = Level.currentLevel.enemyHitsPlayer(player);
                 if (e != null) {
